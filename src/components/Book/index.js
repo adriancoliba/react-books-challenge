@@ -1,10 +1,7 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState } from 'react';
 import style from './style.js';
 import { withStyles } from '@material-ui/core/styles';
-import CircularProgress from '@material-ui/core/CircularProgress';
-import {Paper, Button, Container, Typography, Grid, InputBase, Divider, CssBaseline, Tooltip} from '@material-ui/core';
-import PlayCircleOutlineIcon from '@material-ui/icons/PlayCircleOutline';
-import PanToolIcon from '@material-ui/icons/PanTool';
+import { Paper, Typography } from '@material-ui/core';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
 const BooksList = (props) => {
@@ -28,8 +25,6 @@ const BooksList = (props) => {
       )}
     </Paper>
   )
-
 }
-
 
 export default withStyles(style)(BooksList);

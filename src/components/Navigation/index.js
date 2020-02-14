@@ -7,7 +7,7 @@ import style from "./style";
 import LogoImage from '../../assets/images/logo.png';
 
 const Navigation = (props) => {
-  const { classes } = props;
+  const { classes, fetchData } = props;
   return (
     <div >
       <Grid container spacing={0} className={classes.container} justify='center' alignItems='center'>
@@ -15,7 +15,7 @@ const Navigation = (props) => {
           <img src={LogoImage} alt="Logo" width={42}/>
         </Grid>
         <Grid item>
-            <Typography variant="body1" className={classes.logoText}>Books List</Typography>
+          <Typography variant="body1" className={classes.logoText}>Books List</Typography>
         </Grid>
       </Grid>
     </div>

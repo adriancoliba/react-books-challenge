@@ -10,7 +10,6 @@ const style = () => ({
     },
   },
 
-  
   button: {
     fontSize: '1.093rem',
     textTransform: 'lowercase',
@@ -24,7 +23,6 @@ const style = () => ({
     marginTop: 5,
     marginLeft: 6,
     width: 30
-
   }
 })
 
